@@ -22,6 +22,6 @@ urlpatterns = [
     path('users/add', views.user_add),
     path('chats/add', views.chat_add),
     path('chats/get', views.users_chats),
-    path('messages/add', views.massage_add),
+    path('messages/add', views.message_add),
     path('messages/get', views.chats_messages),
 ]
